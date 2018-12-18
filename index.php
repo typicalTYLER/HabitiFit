@@ -38,7 +38,7 @@
 
           <br>
           <div class="row">
-                  <a href="https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=229TR9&scope=activity&prompt=none" class="btn btn-primary center-block">Authenticate with FitBit</a>
+                  <a href="https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=22DF3D&scope=activity&prompt=none" class="btn btn-primary center-block">Authenticate with FitBit</a>
                 <br>
                 <h3 class="text-center">Please report bugs or feature requests <a href="https://github.com/Lamikins/HabitiFit/issues" target="_blank">here!</a></h3>
                 <br>
@@ -134,7 +134,7 @@
            </div>
           
            <hr>
-           <p>Made with &#9829; by <a href="https://github.com/Lamikins">Lamikins</a></p>
+           <p>Made with &#9829; by <a href="https://github.com/Lamikins">Lamikins</a>, updated by <a href="https://github.com/duplaja">Dan Dulaney</a></p>
        </div>
     </body>
 </html>
