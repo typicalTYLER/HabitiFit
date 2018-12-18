@@ -40,7 +40,7 @@
           <div class="row">
                   <a href="https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=22DF3D&scope=activity&prompt=none" class="btn btn-primary center-block">Authenticate with FitBit</a>
                 <br>
-                <h3 class="text-center">Please report bugs or feature requests <a href="https://github.com/Lamikins/HabitiFit/issues" target="_blank">here!</a></h3>
+                <h3 class="text-center">Please report bugs or feature requests <a href="https://github.com/duplaja/HabitiFit/issues" target="_blank">here!</a></h3>
                 <br>
                 <div class="alert alert-danger alert-dismissible" style="display:none;" id="auth_error" role="alert">
                   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
