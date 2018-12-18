@@ -8,3 +8,4 @@ HabitiFit uses the PHP wrapper for Habitica's API V3 and uses OAuth's implicit g
 ## Forked by Duplaja
 Originally created by [Lamikins](https://github.com/Lamikins), who had to step back.
 Forked and updated by [duplaja](https://github.com/duplaja).
+Currently hosted at [https://dandulaney.com/habitifit/](https://dandulaney.com/habitifit/)
