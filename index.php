@@ -30,7 +30,6 @@
                  <li class="med-font">  Pick the metrics you'd like to use and fill in their values.  Press submit.  </li>
                  <li class="med-font">Go into habitica and create a habit with a name identical to the field you filled out. Repeat for multiple metrics</li>
                  <li class="med-font"> That's it! Every three or so minutes, the page will automatically poll Fitbit's api and update your habitica profile according to your metrics!</li>
-                 <h4 >In-depth instructions will be updated shortly (old wiki no longer active)</h4>
              </ol>
              <p>This app is run entirely client-side. That means that no data is stored anywhere outside your local machine, and this page must remain open for your totals to be actively updated.
                  If you would like a more continuous experience, check out our server-side integration: setup once, works without checking in!</p>
@@ -39,13 +38,13 @@
 
           <br>
           <div class="row">
-                  <a href="https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=22DF3D&scope=activity&expires_in=2592000&prompt=none" class="btn btn-primary center-block">Authenticate with FitBit</a>
+                  <a href="https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=22DF3D&scope=activity&expires_in=2592000&prompt=none" class="btn btn-primary center-block">Authenticate with Fitbit</a>
                 <br>
                 <h3 class="text-center">Please report bugs or feature requests <a href="https://github.com/duplaja/HabitiFit/issues" target="_blank">here!</a></h3>
                 <br>
                 <div class="alert alert-danger alert-dismissible" style="display:none;" id="auth_error" role="alert">
                   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      Your FitBit access code has expired.  Please re-authenticate.  Note: This is not a valid logout
+                      Your Fitbit access code has expired.  Please re-authenticate.  Note: This is not a valid logout
                 </div>
                 <hr>
           </div>
