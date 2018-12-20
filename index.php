@@ -26,13 +26,14 @@
               <h2>How to Use:</h2>
               
               <ol>
-                 <li class="med-font"> Authenticate with FitBit, then fill in your habitica api data (press submit)!</li>
+                 <li class="med-font"> Authenticate with Fitbit, then fill in your habitica api data (press submit)!</li>
                  <li class="med-font">  Pick the metrics you'd like to use and fill in their values.  Press submit.  </li>
                  <li class="med-font">Go into habitica and create a habit with a name identical to the field you filled out. Repeat for multiple metrics</li>
-                 <li class="med-font"> That's it! Every three or so minutes, the page will automatically poll FitBit's api and update your habitica profile according to your metrics!</li>
+                 <li class="med-font"> That's it! Every three or so minutes, the page will automatically poll Fitbit's api and update your habitica profile according to your metrics!</li>
                  <h4 >In-depth instructions will be updated shortly (old wiki no longer active)</h4>
              </ol>
-             
+             <p>This app is run entirely client-side. That means that no data is stored anywhere outside your local machine, and this page must remain open for your totals to be actively updated.
+                 If you would like a more continuous experience, check out our server-side integration: setup once, works without checking in!</p>
              <hr>
           </div>
 
