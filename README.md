@@ -11,4 +11,4 @@ Originally created by [Lamikins](https://github.com/Lamikins), who had to step b
 
 Forked and updated by [duplaja](https://github.com/duplaja).
 
-Forked again by [duplaja](https://github.com/typicalTYLER). Trying to add some features.
+Forked again by [typicalTYLER](https://github.com/typicalTYLER). Trying to add some features.
