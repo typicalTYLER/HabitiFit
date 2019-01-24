@@ -38,7 +38,7 @@
 
           <br>
           <div class="row">
-                  <a href="https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=22DF3D&scope=activity&expires_in=2592000&prompt=none" class="btn btn-primary center-block">Authenticate with Fitbit</a>
+                  <a href="https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=22DBQF&scope=activity&expires_in=2592000&prompt=none" class="btn btn-primary center-block">Authenticate with Fitbit</a>
                 <br>
                 <h3 class="text-center">Please report bugs or feature requests <a href="https://github.com/duplaja/HabitiFit/issues" target="_blank">here!</a></h3>
                 <br>
@@ -60,6 +60,9 @@
                 <h4>Steps Today: <span id="steps"></span></h4>
                  <h4>Calories Out Today: <span id="calories"></span></h4>
                   <h4>Miles Walked Today: <span id="miles"></span></h4>
+                  <h4>Lightly Active Minutes Today: <span id="lightly_active"></span></h4>
+                  <h4>Fairly Active Minutes Today: <span id="fairly_active"></span></h4>
+                  <h4>Very Active Minutes Today: <span id="very_active"></span></h4>
                   <br>
                   <a href="/" class="btn btn-danger" id="logout">Reset All Data (logout)</a><br>
               </div>
@@ -71,7 +74,7 @@
                       <h5 class="text-muted">i.e. "500 steps taken"</h5>
 
                       <div class="input-group">
-                        <span class="input-group-addon">
+                        <span class="input-group-addon active">
                             <input type="checkbox" aria-label="..." id="track_steps">
                         </span>
                         <input type="text" id="steps_value" class="form-control">
@@ -89,7 +92,7 @@
                       <br>
 
                       <div class="input-group">
-                        <span class="input-group-addon active">
+                        <span class="input-group-addon">
                             <input type="checkbox" aria-label="..." id="track_calories">
                         </span>
                         <input type="text" id="calories_value" class="form-control">
@@ -114,7 +117,7 @@
                         <span class="input-group-addon">fairly active minutes</span>
                       </div>
                       <br>
-                      
+
                       <div class="input-group">
                         <span class="input-group-addon">
                             <input type="checkbox" aria-label="..." id="track_very_active">
