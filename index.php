@@ -38,7 +38,7 @@
 
           <br>
           <div class="row">
-                  <a href="https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=22DBQF&scope=activity&expires_in=2592000&prompt=none" class="btn btn-primary center-block">Authenticate with Fitbit</a>
+                  <a href="https://www.fitbit.com/oauth2/authorize?response_type=token&client_id=22DF3D&scope=activity&expires_in=2592000&prompt=none" class="btn btn-primary center-block">Authenticate with Fitbit</a>
                 <br>
                 <h3 class="text-center">Please report bugs or feature requests <a href="https://github.com/duplaja/HabitiFit/issues" target="_blank">here!</a></h3>
                 <br>
