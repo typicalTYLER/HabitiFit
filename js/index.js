@@ -206,9 +206,9 @@ $(document).ready(function() {
             }else{
                 localStorage.steps_taken = data.summary.steps;
                 localStorage.calories_burned = data.summary.caloriesOut;
-                localStorage.lightlyActiveMinutes = data.summary.lightlyActiveMinutes;
-                localStorage.fairlyActiveMinutes = data.summary.fairlyActiveMinutes;
-                localStorage.veryActiveMinutes = data.summary.veryActiveMinutes;
+                localStorage.lightly_active = data.summary.lightlyActiveMinutes;
+                localStorage.fairly_active = data.summary.fairlyActiveMinutes;
+                localStorage.very_active = data.summary.veryActiveMinutes;
 
                 data.summary.distances.forEach(function(item){
                     if(item.activity == "total"){
